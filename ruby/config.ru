@@ -1,0 +1,3 @@
+require "./ruby"
+
+run Cuba

@@ -13,7 +13,8 @@ fn main() {
         get "**" => |_req, _res| {
           let person = Person{
             first_name: "Serdar".to_string(),
-            last_name: "Dogruyol".to_string()};
+            last_name: "Dogruyol".to_string()
+          };
           person.to_json()
         }
     });
