@@ -15,6 +15,17 @@ This is the repository for Rust vs Ruby: Building an API blog post.
 ```
 cd ruby && rackup -s thin
 ```
+
+### JRuby
+
+* JRuby Version: 1.7.19
+* Ruby Server: Puma 2.11.1
+* Framework: Cuba 3.4.0
+
+```
+puma -t 8:8
+```
+
 ### Rust
 
 * Rust Version: 1.0.0-beta
