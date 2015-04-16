@@ -1,6 +1,5 @@
-#[macro_use] extern crate nickel_macros;
 extern crate rustc_serialize;
-extern crate nickel;
+#[macro_use] extern crate nickel;
 
 use std::collections::BTreeMap;
 use nickel::{Nickel,HttpRouter};
